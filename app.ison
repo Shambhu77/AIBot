@@ -1,1 +1,24 @@
 
+{
+  "name": "AIBOT",
+  "description": "College Project.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": ""
+    }
+  },
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
