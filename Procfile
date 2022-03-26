@@ -1,1 +1,1 @@
-akshay : python3 main.py
+akshay: python3 main.py
